@@ -11,7 +11,7 @@ const HelloWorldDisplay = () => {
     >
       <Card className="p-12 shadow-2xl border-0 bg-white/80 backdrop-blur-sm">
         <motion.h1 
-          className="text-6xl font-bold text-orange-500 tracking-tight"
+          className="text-6xl font-bold text-red-500 tracking-tight"
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
